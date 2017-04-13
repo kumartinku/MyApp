@@ -45,7 +45,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = new Intent(Intent.ACTION_PICK, uri);
         intent.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
         startActivityForResult(intent, REQUEST_CODE);
+        
+        code();
 
+    }
+
+    private void code() {
     }
 
 
