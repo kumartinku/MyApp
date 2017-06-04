@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.d("TAG", "ZZZ number : " + number +" , name : "+name);
 
                 int a=10;
+                int b=50;
 
             }
         }
